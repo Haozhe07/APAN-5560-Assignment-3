@@ -1,0 +1,15 @@
+[project]
+name = "apan-5560-assignment-3"
+version = "0.1.0"
+description = "MNIST GAN generation with FastAPI"
+requires-python = ">=3.13,<3.14"
+dependencies = ["fastapi[standard]>=0.142.2", "torch==2.14.1", "torchvision==0.29.1", "pillow>=11", "spacy>=3.8.16"]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [{index = "pytorch-cpu", marker = "sys_platform == 'linux'"}]
+torchvision = [{index = "pytorch-cpu", marker = "sys_platform == 'linux'"}]

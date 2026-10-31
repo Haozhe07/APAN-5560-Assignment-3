@@ -1,0 +1,76 @@
+{
+  "dataset": "MNIST training split",
+  "training_images": 60000,
+  "seed": 42,
+  "batch_size": 256,
+  "learning_rate": 0.0002,
+  "adam_betas": [
+    0.5,
+    0.999
+  ],
+  "device": "cpu",
+  "torch_version": "2.14.1",
+  "history": [
+    {
+      "epoch": 1,
+      "generator_loss": 2.616777758280436,
+      "discriminator_loss": 0.24334016326268515,
+      "seconds": 83.14
+    },
+    {
+      "epoch": 2,
+      "generator_loss": 1.7526577164967856,
+      "discriminator_loss": 0.3322322918097178,
+      "seconds": 87.68
+    },
+    {
+      "epoch": 3,
+      "generator_loss": 1.7542235669453938,
+      "discriminator_loss": 0.29706191225846607,
+      "seconds": 100.54
+    },
+    {
+      "epoch": 4,
+      "generator_loss": 1.7538832867304484,
+      "discriminator_loss": 0.30270064430236815,
+      "seconds": 93.34
+    },
+    {
+      "epoch": 5,
+      "generator_loss": 1.65922955382665,
+      "discriminator_loss": 0.35632670828501384,
+      "seconds": 87.53
+    },
+    {
+      "epoch": 6,
+      "generator_loss": 1.6329381937026977,
+      "discriminator_loss": 0.3494806210676829,
+      "seconds": 81.0
+    },
+    {
+      "epoch": 7,
+      "generator_loss": 1.6536922086079915,
+      "discriminator_loss": 0.36419946263631187,
+      "seconds": 81.36
+    },
+    {
+      "epoch": 8,
+      "generator_loss": 1.689797284634908,
+      "discriminator_loss": 0.3400953759511312,
+      "seconds": 81.66
+    },
+    {
+      "epoch": 9,
+      "generator_loss": 1.7306170777638754,
+      "discriminator_loss": 0.3576359949747721,
+      "seconds": 80.16
+    },
+    {
+      "epoch": 10,
+      "generator_loss": 1.7328436962127685,
+      "discriminator_loss": 0.32228633149464925,
+      "seconds": 80.63
+    }
+  ],
+  "note": "GAN losses are not classification accuracy or a standalone image-quality score."
+}
